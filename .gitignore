@@ -1,0 +1,7 @@
+.idea/*
+!.idea/copyright
+
+build/
+.gradle/
+.jmix
+/datatools-graphql.iml

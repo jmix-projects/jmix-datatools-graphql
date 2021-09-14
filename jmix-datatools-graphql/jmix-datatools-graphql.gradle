@@ -1,0 +1,6 @@
+archivesBaseName = 'jmix-datatools-graphql'
+
+dependencies {
+    compileOnly 'io.jmix.datatools:jmix-datatools'
+    compileOnly 'io.jmix.graphql:jmix-graphql'
+}
