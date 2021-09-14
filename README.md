@@ -7,7 +7,7 @@ Adds graphql entity restore endpoint.
 #### Add starter to your build.gradle
 
 ```groovy
-implementation 'io.jmix.datatools:jmix-datatools-graphql-starter'
+implementation 'io.jmix.datatools:jmix-datatools-graphql-starter:<versoin>'
 ```
 
 Module `jmix-datatools-graphql` will be added only if both of `jmix-datatools` and `jmix-graphql` modules present, e.g.

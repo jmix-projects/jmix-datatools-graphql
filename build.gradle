@@ -49,7 +49,7 @@ subprojects {
     publishing {
         repositories {
             maven {
-                url = 'https://myrepo/releases/'
+                url = 'https://nexus.jmix.io/repository/snapshots'
                 credentials {
                     username rootProject.hasProperty('uploadUser') ? rootProject['uploadUser'] : 'admin'
                     password rootProject.hasProperty('uploadPassword') ? rootProject['uploadPassword'] : 'admin'
