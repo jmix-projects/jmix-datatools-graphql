@@ -1,0 +1,3 @@
+mutation{
+    restoreEntities(className: "test_Customer", ids: ["bb7b5923-5b88-4dd7-aad9-9d2f735009dd"])
+}
